@@ -171,7 +171,7 @@ function createSword() {
  function   hurdle12() {
   if(getFrameRate()/60 === 0){
   hurdle_ = createSprite(600,Math.round(random(100,500)))
-  hurdle.velocityX = 3;
+  hurdle.velocityY = 3;
   hurdle.lifetime = 10;
   hurdle.addImage(hurdle) 
   hurdle.add(hurd1)
