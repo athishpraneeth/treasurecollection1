@@ -90,7 +90,8 @@ function draw() {
         gamestate = end
    
       }
-
+   hurdle12()
+      
      hurd1.collide(boy)
 
       //boy.debug = true;
